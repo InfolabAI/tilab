@@ -1,0 +1,9 @@
+# Local management material
+/history/
+/DESIGN.md
+# Only portraits used by the website are tracked
+/pictures/*
+!/pictures/flux2_dev_20260922_221208_605374_1024x896_fp8_turbo_s16092722229168700523.png
+
+.DS_Store
+Thumbs.db
