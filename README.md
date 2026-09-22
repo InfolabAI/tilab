@@ -1,6 +1,6 @@
 # TILab — Trustworthy Intelligence Lab
 
-**Website: [https://infolabai.github.io/lab_homepage/](https://infolabai.github.io/lab_homepage/)**
+**Website: [https://infolabai.github.io/tilab/](https://infolabai.github.io/tilab/)**
 
 Professor and research lab website for Heechul Lim, Department of Artificial Intelligence, Tech University of Korea.
 
