@@ -8,3 +8,22 @@
 .DS_Store
 Thumbs.db
 !/pictures/스크린샷 2026-09-23 10-37-38.png
+
+# Private student source records
+/information/
+# Published student portraits
+!/pictures/김준아/
+/pictures/김준아/*
+!/pictures/김준아/김준아_프로필_20260928.png
+!/pictures/김윤채/
+/pictures/김윤채/*
+!/pictures/김윤채/김윤채_프로필_20260923.jpg
+!/pictures/안재연/
+/pictures/안재연/*
+!/pictures/안재연/안재연_프로필_20260928.jpg
+!/pictures/고정연/
+/pictures/고정연/*
+!/pictures/고정연/고정연_프로필_20260927.jpg
+!/pictures/정성우/
+/pictures/정성우/*
+!/pictures/정성우/정성우_프로필_20260923.jpg

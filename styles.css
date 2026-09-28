@@ -105,3 +105,7 @@ body{min-height:100vh;display:flex;flex-direction:column}main.wrap{width:100%;fl
  .patent-facts>div,.publications-page .patent-facts>div{grid-template-columns:1fr;gap:4px}
 }
 @media(max-width:600px){.hero-top{flex-direction:column;gap:12px}.hero-top .eyebrow{font-size:13px;letter-spacing:1.4px}.hero-top .edition{font-size:12px;max-width:none;text-align:left}.hero-copy{line-height:1.7}.header-inner{min-height:100px}}
+
+/* Preserve the full student-submitted portraits across screen sizes. */
+.student-photo{display:block}
+.student-photo img{display:block;object-fit:contain}
