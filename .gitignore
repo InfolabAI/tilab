@@ -13,3 +13,6 @@ Thumbs.db
 /information/
 # Published, normalized student portraits
 !/pictures/students/
+# Paper figures used by Research and Publications
+!/pictures/research/
+!/pictures/publications/

@@ -109,3 +109,14 @@ body{min-height:100vh;display:flex;flex-direction:column}main.wrap{width:100%;fl
 /* Match the normalized portraits without a second display crop. */
 .student-photo{display:block;width:50%;height:auto;aspect-ratio:643/800;margin-inline:auto}
 .student-photo img{display:block;width:100%;height:100%;object-fit:contain}
+/* Paper figures: research cards and publication thumbnails */
+.research-figure{display:block;margin:18px 0 12px;padding:15px;background:#fff;border:1.5px solid var(--line);overflow:hidden}
+.research-figure a{display:block;width:100%;height:100%}
+.research-figure img{display:block;width:100%;height:100%;object-fit:contain}
+.research-card .figure-credit{font-size:16.5px;line-height:1.5;color:var(--muted);margin-bottom:27px}
+.research-card .figure-credit a{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4.5px}
+.publications-page .publication.has-figure{grid-template-columns:97.5px 300px minmax(0,1fr)}
+.pub-figure{display:block;height:180px;padding:9px;background:#fff;border:1.5px solid var(--line)}
+.pub-figure:hover{border-color:var(--blue)}
+.pub-figure img{display:block;width:100%;height:100%;object-fit:contain}
+@media(max-width:1140px){.research-figure{height:auto;max-width:720px}.research-figure a,.research-figure img{height:auto}.publications-page .publication.has-figure{grid-template-columns:1fr}.pub-figure{max-width:420px;width:100%;height:210px}}
