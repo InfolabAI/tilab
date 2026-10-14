@@ -116,7 +116,7 @@ body{min-height:100vh;display:flex;flex-direction:column}main.wrap{width:100%;fl
 .research-figure img{display:block;width:100%;height:100%;object-fit:contain}
 .research-card .figure-credit{font-size:16.5px;line-height:1.5;color:var(--muted);margin-bottom:27px}
 .research-card .figure-credit a{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4.5px}
-/* Square thumbnail whose side matches the paper text height; --fig-size is set by the script in publications.html */
+/* Same square thumbnail for every paper, sized to the QueCo entry; --fig-size is set on #papers by the script in publications.html */
 .publications-page .publication.has-figure{grid-template-columns:97.5px var(--fig-size,240px) minmax(0,1fr)}
 .publication.has-figure>div:last-child{align-self:start}
 .pub-figure{display:block;width:var(--fig-size,240px);height:var(--fig-size,240px);padding:9px;background:#fff;border:1.5px solid var(--line)}
