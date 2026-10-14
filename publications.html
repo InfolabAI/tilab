@@ -116,5 +116,11 @@
     </a>
 </div>
 </footer>
+<script>
+/* Size each paper thumbnail as a square equal to the height of its paper text (desktop layout only). */
+(()=>{const wide=matchMedia('(min-width:1141px)');
+function fit(){document.querySelectorAll('.publication.has-figure').forEach(a=>{const text=a.querySelector('.pub-figure+div');if(!wide.matches){a.style.removeProperty('--fig-size');return}const set=w=>{a.style.setProperty('--fig-size',w+'px');return text.getBoundingClientRect().height};let lo=120,hi=Math.round(a.clientWidth*0.3);if(set(hi)<hi){for(let i=0;i<14&&hi-lo>1;i++){const m=(lo+hi)/2;if(set(m)>m)lo=m;else hi=m}}set(Math.round(hi))})}
+let frame;addEventListener('resize',()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(fit)});addEventListener('load',fit);if(document.fonts)document.fonts.ready.then(fit);fit()})();
+</script>
 </body>
 </html>
