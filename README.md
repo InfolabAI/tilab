@@ -11,7 +11,7 @@ Professor and research lab website for Heechul Lim, Department of Artificial Int
 - Professor: profile, education, experience, and honors
 - People: faculty, students, and alumni
 - Publications: papers, dissertation, and patents
-- Teaching: courses and invited talks
+- Lectures: courses, invited lectures, and professional training in one illustrated list
 
 ## Preview and update
 

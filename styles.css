@@ -123,3 +123,17 @@ body{min-height:100vh;display:flex;flex-direction:column}main.wrap{width:100%;fl
 .pub-figure:hover{border-color:var(--blue)}
 .pub-figure img{display:block;width:100%;height:100%;object-fit:contain}
 @media(max-width:1140px){.research-figure{max-width:720px}.publications-page .publication.has-figure{grid-template-columns:1fr}.pub-figure{max-width:420px;width:100%;height:210px}}
+
+/* One continuous lecture list, with the same image treatment as paper figures. */
+.lectures-page .lecture{padding:40.5px 0;border-top:1.5px solid var(--line);break-inside:avoid}
+.lectures-page .lecture.has-photo{display:grid;grid-template-columns:240px minmax(0,1fr);gap:45px}
+.lectures-page .lecture-figure{width:240px;height:240px;max-width:100%}
+.lectures-page .lecture-copy{min-width:0}
+.lectures-page .lecture-meta{font-size:19.5px;line-height:1.6;color:var(--muted);margin:0 0 12px;overflow-wrap:anywhere}
+.lectures-page .lecture h2{font:34.5px/1.35 var(--serif);letter-spacing:-.45px;color:var(--blue);overflow-wrap:anywhere}
+.lectures-page .lecture-title-link{color:inherit;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:7.5px;text-decoration-color:var(--line)}
+.lectures-page .lecture-title-link:hover,.lectures-page .lecture-title-link:focus-visible{text-decoration-color:currentColor}
+.lectures-page .title-ko{font:21px/1.6 var(--sans);color:var(--muted);margin-top:10.5px;word-break:keep-all;overflow-wrap:anywhere}
+.lectures-page .lecture-description{font-size:22.5px;line-height:1.75;color:var(--secondary);max-width:78ch;margin-top:18px}
+@media(max-width:1140px){.lectures-page .lecture.has-photo{gap:30px;grid-template-columns:210px minmax(0,1fr)}.lectures-page .lecture-figure{width:210px;height:210px}.lectures-page .lecture h2{font-size:31.5px}}
+@media(max-width:600px){.lectures-page .lecture{padding:30px 0}.lectures-page .lecture.has-photo{grid-template-columns:1fr;gap:24px}.lectures-page .lecture-figure{width:100%;max-width:360px;height:auto;aspect-ratio:1}.lectures-page .lecture h2{font-size:28px}.lectures-page .lecture-meta{font-size:16px}.lectures-page .lecture-description{font-size:18px}.lectures-page .title-ko{font-size:18px}}
