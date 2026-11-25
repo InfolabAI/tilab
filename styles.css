@@ -137,3 +137,5 @@ body{min-height:100vh;display:flex;flex-direction:column}main.wrap{width:100%;fl
 .lectures-page .lecture-description{font-size:22.5px;line-height:1.75;color:var(--secondary);max-width:78ch;margin-top:18px}
 @media(max-width:1140px){.lectures-page .lecture.has-photo{gap:30px;grid-template-columns:210px minmax(0,1fr)}.lectures-page .lecture-figure{width:210px;height:210px}.lectures-page .lecture h2{font-size:31.5px}}
 @media(max-width:600px){.lectures-page .lecture{padding:30px 0}.lectures-page .lecture.has-photo{grid-template-columns:1fr;gap:24px}.lectures-page .lecture-figure{width:100%;max-width:360px;height:auto;aspect-ratio:1}.lectures-page .lecture h2{font-size:28px}.lectures-page .lecture-meta{font-size:16px}.lectures-page .lecture-description{font-size:18px}.lectures-page .title-ko{font-size:18px}}
+.pending-count{font-size:24px;color:var(--secondary);margin-top:15px;line-height:1.2}.pending-count strong{font:500 105px/1 var(--serif);color:var(--blue);margin-right:15px;letter-spacing:-2px;vertical-align:-9px}.pending-entry .pub-authors strong{color:var(--blue);font-size:27px}
+@media(max-width:1140px){.pending-count strong{font-size:84px}}
